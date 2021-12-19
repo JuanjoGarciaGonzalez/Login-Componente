@@ -1,0 +1,111 @@
+/* GENERALES */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* LOGIN */
+.login {
+    text-align: center;
+    width: 1023px;
+    height: 370px;
+    border-radius: 15px;
+    background: #5271E0;
+    background: -webkit-linear-gradient(top left, #5271E0, #183BB7);
+    background: -moz-linear-gradient(top left, #5271E0, #183BB7);
+    background: linear-gradient(to bottom right, #5271E0, #183BB7);
+    color: #F3F8FE;
+    position: relative;
+}
+
+.login__title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 70px;
+}
+
+.login__description {
+    font-size: 18px;
+    width: 343px;
+    margin: 0 auto;
+}
+
+.login__form {
+    width: 461px;
+    position: relative;
+    margin: 20px auto 0 auto;
+}
+
+.login__form__email {
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #F3F8FE;
+    padding: 1.2rem;
+    height: 69px;
+    background-color: #889be2;
+    color: #F3F8FE;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+}
+
+.login__form__email::placeholder {
+    color: #F3F8FE;
+    font-size: 1rem;
+    font-family: 'Mulish', sans-serif;
+}
+
+.login__form__email:focus {
+    outline: none;
+}
+
+.login__form__submit {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    border: none;
+    background-color: #F3F8FE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fas {
+    font-size: 1.5rem;
+    color: #3D476D;
+}
+
+.login__teammates {
+    width: 630px;
+    position: absolute;
+    bottom: -55px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login__teammates__img {
+    width: 86px;
+    height: 86px;
+    border: 8px solid white;
+    border-radius: 50%;
+}
